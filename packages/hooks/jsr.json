@@ -1,0 +1,7 @@
+{
+    "name": "@gm/hooks",
+    "version": "0.0.9",
+    "exports": {
+        "./logger": "./src/logger.ts"
+    }
+}

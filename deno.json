@@ -1,5 +1,14 @@
 {
+  "lock": false,
   "tasks": {
-    "dev": "deno run --watch main.ts"
-  }
+    "dev": "deno run --watch main.ts",
+    "test:runtime-detection": "deno run --allow-env --allow-read --allow-run ./packages/runtime-detection/run_tests.ts",
+    "format": "deno fmt ./**/*.ts"
+  },
+  "exclude": [
+    "node_modules",
+    "packages/runtime-detection/tests/node_test.ts",
+    "packages/runtime-detection/tests/bun_test.ts",
+    "packages/runtime-detection/tests/workerd_test/workerd_test.ts"
+  ]
 }

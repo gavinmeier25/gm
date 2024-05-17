@@ -1,0 +1,7 @@
+{
+    "name": "workerd_test",
+    "dependencies": {
+        "miniflare": "latest",
+        "undici": "6.8.0"
+    }
+}
